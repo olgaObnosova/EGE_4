@@ -11,5 +11,7 @@ for i in range(15, 28):
 sp[28]=sp[27]+sp[14]
 sp[29]=sp[28]
 print(sp[29])
+s='dfaaaawgrhe'
+print(s.count('a',5))
     
     

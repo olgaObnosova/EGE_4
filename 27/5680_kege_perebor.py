@@ -4,7 +4,7 @@ with open('5680_A.txt') as f:
     for line in f:
         sp.append(int(line))
 sp = sp + sp
-print(sp)
+#print(sp)
 minn = float('inf')
 for i in range(len(sp)//2):
     st = 0

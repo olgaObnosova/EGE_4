@@ -11,8 +11,9 @@ for i in range(r, len(sp)):
 maxx = max(otv)
 b = otv.index(maxx)
 maxx2 = 0
-for i in range(len(otv)):
-    if otv[i] > maxx2 and maxx2 < maxx and otv[i] != maxx and  abs(b-i) > 2 * r:
+for i in range(b):
+    if otv[i] > maxx2 and maxx2 < maxx \
+            and otv[i] != maxx and  abs(b-i) > 2 * r:
         maxx2 = otv[i]
 
 print(maxx + maxx2)

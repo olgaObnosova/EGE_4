@@ -1,4 +1,4 @@
-f=open('17.txt')
+f=open('25019141.txt')
 sp=[]
 kol100=0
 k=0
