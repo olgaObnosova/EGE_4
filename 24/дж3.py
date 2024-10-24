@@ -9,4 +9,4 @@ for i in range(len(f) - 1):
         maxx = max(maxx, k)
     else:
         k = 1
-print(maxx)
+print(maxx-2)# так как не берется первая и последняя

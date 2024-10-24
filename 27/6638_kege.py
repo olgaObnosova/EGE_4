@@ -7,13 +7,13 @@ with open('27B_6638.txt') as f:
         sp.append((a,b//100+bool(b%100)))
 for i in range(len(sp)):
     s+=abs(sp[0][0]-sp[i][0])*sp[i][1] # сумма если в 0
-    summ+=sp[i][1] # сумма всех
+    summ+=sp[i][1] # сумма
 print(s)
 print(summ)
 minn=s
 r = 0
-lefts = sp[0][1]
-pravs = 0
+lefts = sp[0][1]#git config --global user.name OlgaKuznetcova
+pravs = 0 #git config --global user.email obnolga@mail.ru
 for i in range(1, len(sp)):
     pravs = summ - lefts
     r=abs(sp[i][0]-sp[i-1][0])

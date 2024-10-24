@@ -10,3 +10,4 @@ for n in range(3, 10000):
     k=a.count('1')+a.count('2')*2+a.count('5')*5
     if k==64:
         print(n)
+print(bin(192),bin(168), bin(160), bin(240))
